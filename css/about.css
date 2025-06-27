@@ -1,0 +1,107 @@
+.about-hero {
+  background: linear-gradient(to right, #0f0f0f, #1f1f1f);
+  color: white;
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+.about-hero h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  font-family: 'Orbitron', sans-serif;
+}
+
+.about-hero p {
+  font-size: 1.1rem;
+  max-width: 800px;
+  margin: 0 auto;
+  line-height: 1.7;
+}
+
+.our-mission {
+  padding: 3rem 2rem;
+  background: #181818;
+  text-align: center;
+}
+
+.our-mission h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.our-mission p {
+  max-width: 700px;
+  margin: 0 auto;
+  font-size: 1.05rem;
+  color: #ccc;
+}
+
+.team-section {
+  padding: 3rem 2rem;
+  text-align: center;
+}
+
+.team-section h2 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.team-grid {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2.5rem;
+  margin-top: 2rem;
+}
+
+.team-row {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.team-member,
+.vacant-member {
+  background-color: #1a1a1a;
+  padding: 1.5rem;
+  border-radius: 12px;
+  text-align: center;
+  width: 250px;
+  box-shadow: 0 0 12px rgba(68, 0, 255, 0.4);
+}
+
+.team-member img,
+.vacant-member img {
+  width: 100px;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+}
+
+.vacant-member a {
+  display: block;
+  margin-top: 0.5rem;
+  color: #7b00ff;;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+
+.team-member:hover {
+  transform: scale(1.05);
+}
+
+.team-member img {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+
+.team-member h3 {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.team-member p {
+  color: #999;
+}
