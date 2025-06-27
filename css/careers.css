@@ -1,0 +1,70 @@
+.careers-section {
+  max-width: 900px;
+  margin: 4rem auto 5rem;
+  padding: 0 1.5rem;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+}
+
+.careers-section h1 {
+  font-size: 3rem;
+  font-family: 'Orbitron', sans-serif;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.careers-section .intro {
+  text-align: center;
+  font-size: 1.1rem;
+  color: #ccc;
+  margin-bottom: 3rem;
+}
+
+.job-listings {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.job-card {
+  background-color: #1a1a1a;
+  border-left: 6px solid #7b00ff;
+  padding: 2rem;
+  border-radius: 16px;
+  box-shadow: 0 6px 20px rgba(68, 0, 255, 0.4);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.job-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 25px rgba(84, 21, 255, 0.4);
+}
+
+.job-card h2 {
+  font-size: 1.8rem;
+  margin-bottom: 0.5rem;
+  color: #7b00ff;
+}
+
+.job-card p {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #ddd;
+  margin-bottom: 1rem;
+}
+
+.apply-btn {
+  display: inline-block;
+  margin-top: 0.5rem;
+  padding: 0.7rem 1.5rem;
+  background-color: #7b00ff;
+  color: white;
+  border-radius: 8px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.apply-btn:hover {
+  background-color: #8e25ff;
+}
