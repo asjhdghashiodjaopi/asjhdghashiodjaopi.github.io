@@ -48,3 +48,38 @@
   transform: scale(1.05);
   box-shadow: 0 12px 25px rgba(93, 0, 255, 0.8);
 }
+
+/* ✅ Responsive Mobile Optimization */
+@media screen and (max-width: 768px) {
+  .games-hero h1 {
+    font-size: 2.2rem;
+  }
+
+  .games-hero p {
+    font-size: 1rem;
+  }
+
+  .game-showcase {
+    padding: 2rem 1rem 3rem;
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .games-hero {
+    padding: 3rem 1rem 2rem;
+  }
+
+  .games-hero h1 {
+    font-size: 1.8rem;
+  }
+
+  .games-hero p {
+    font-size: 0.95rem;
+  }
+
+  .game-card {
+    max-width: 100%;
+  }
+}
