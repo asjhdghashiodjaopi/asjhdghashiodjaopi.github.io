@@ -81,11 +81,10 @@
 .vacant-member a {
   display: block;
   margin-top: 0.5rem;
-  color: #7b00ff;;
+  color: #7b00ff;
   text-decoration: underline;
   font-weight: bold;
 }
-
 
 .team-member:hover {
   transform: scale(1.05);
@@ -104,4 +103,21 @@
 
 .team-member p {
   color: #999;
+}
+
+/* ✅ Mobile */
+@media screen and (max-width: 768px) {
+  .about-hero h1 {
+    font-size: 2.2rem;
+  }
+
+  .about-hero p,
+  .our-mission p {
+    font-size: 0.95rem;
+  }
+
+  .team-member,
+  .vacant-member {
+    width: 90%;
+  }
 }
