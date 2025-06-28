@@ -38,3 +38,18 @@
   color: #ccc;
   line-height: 1.6;
 }
+
+/* ✅ Responsive tweaks */
+@media screen and (max-width: 768px) {
+  .faq-section h1 {
+    font-size: 2rem;
+  }
+
+  .faq-box h3 {
+    font-size: 1.1rem;
+  }
+
+  .faq-box p {
+    font-size: 0.95rem;
+  }
+}
