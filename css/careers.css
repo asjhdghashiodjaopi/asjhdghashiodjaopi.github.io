@@ -68,3 +68,18 @@
 .apply-btn:hover {
   background-color: #8e25ff;
 }
+
+/* ✅ Mobile Optimization */
+@media screen and (max-width: 768px) {
+  .careers-section h1 {
+    font-size: 2.2rem;
+  }
+
+  .job-card h2 {
+    font-size: 1.4rem;
+  }
+
+  .job-card p {
+    font-size: 0.95rem;
+  }
+}
